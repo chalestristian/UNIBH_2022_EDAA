@@ -26,13 +26,12 @@ public class exercicio2 {
             System.out.print(" - ");
 
             for(int i=0; i<20; i++) {
-                // O uso deste limitador é apenas para simplificar os cálculos do algoritmo, mas o algoritmo poderia ser utilizado sem limitador
                 var novoNumero = randomGenerator.nextInt(maxNum);
 
                 aleatorio[i] = novoNumero;
 
                 System.out.print(novoNumero);
-                System.out.print("|");
+                System.out.print(" - ");
             }
             return aleatorio;
         }
