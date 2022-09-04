@@ -40,7 +40,7 @@ public class exercicio4 {
 
                 if (valorContido < 0) {
                     System.out.println();
-                    System.out.print("nsrIira um valor válido.");
+                    System.out.print("Insira um valor válido.");
                     continue;
                 }
 
@@ -60,7 +60,7 @@ public class exercicio4 {
             int valorConfessado = 0;
 
             while(valorConfessado == 0) {
-                System.out.print("Valor obtido pelo assaltante: ");
+                System.out.print("Valor obtido pelo assaltante que confessou: ");
                 int valorContido = input.nextInt();
 
                 if (valorContido <= 0 || valorContido % 10 != 0) {
