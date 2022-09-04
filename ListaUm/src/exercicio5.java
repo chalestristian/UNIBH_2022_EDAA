@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class exercicio5 {
+    /*
+     *@author Thales Cristian
+     *@author Neuber Tavares
+     */
         public static void main(String[] args) {
             final Scanner input = new Scanner(System.in);
             int[] unicoNumero = new int[5];
