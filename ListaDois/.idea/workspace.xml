@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c21eeb0-4b08-40b0-9e24-42f5c296a92f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListaDois.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TCaixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TGerenciaDeContas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TResultadoOperacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utilitarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SantanderCoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +31,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.SantanderCoder">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao" />
+      <module name="ListaDois" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SantanderCoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SantanderCoder" />
+      <module name="ListaDois" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TCaixa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TCaixa" />
       <module name="ListaDois" />
@@ -58,6 +65,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SantanderCoder" />
+        <item itemvalue="Application.Aplicacao" />
         <item itemvalue="Application.TCaixa" />
       </list>
     </recent_temporary>
@@ -71,6 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1663026021960</updated>
       <workItem from="1663026023200" duration="5834000" />
+      <workItem from="1663035421351" duration="12000" />
+      <workItem from="1663768466603" duration="1007000" />
+      <workItem from="1664238671508" duration="7000" />
     </task>
     <servers />
   </component>
