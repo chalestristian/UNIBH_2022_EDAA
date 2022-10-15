@@ -14,7 +14,7 @@ public class Main {
     System.out.println("Informe o nome do autor: ");
     livro2.setAutor(input.next());
 
-        System.out.println(livro);
+    System.out.println(livro);
     System.out.println(livro2);
     System.out.println(livro2 == livro);
 
