@@ -1,3 +1,5 @@
+package entidades;
+
 public class Livro {
     private String titulo;
     private String autor;
@@ -10,8 +12,6 @@ public class Livro {
 
     public Livro() {
     }
-
-    //Getters and Setters
     public String getTitulo() {
         return titulo;
     }
@@ -29,9 +29,8 @@ public class Livro {
     }
 
     @Override
-    //Para retornar o objeto gerado pelo construtor vazio:
     public String toString(){
-        return "Livro{" +
+        return "entidades.Livro{" +
                 "Titulo='" + titulo +'\'' +
                 ", Autor='" + autor + '\'' +
                 '}';

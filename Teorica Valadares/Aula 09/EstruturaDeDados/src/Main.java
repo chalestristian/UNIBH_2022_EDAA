@@ -1,3 +1,6 @@
+import entidades.Biblioteca;
+import entidades.Livro;
+
 import javax.swing.*;
 import java.util.Scanner;
 
