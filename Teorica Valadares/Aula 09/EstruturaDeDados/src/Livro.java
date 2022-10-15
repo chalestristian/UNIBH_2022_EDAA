@@ -8,8 +8,6 @@ public class Livro {
         this.autor = autor;
     }
 
-    //Construtor vazio
-    //Se eu quiser criar um objeto do tipo livro sem atribuir nenhum parametro para ele no momento.
     public Livro() {
     }
 
