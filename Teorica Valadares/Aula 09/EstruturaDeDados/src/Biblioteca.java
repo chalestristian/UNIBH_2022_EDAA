@@ -13,4 +13,11 @@ public class Biblioteca {
         return livros.length;
     }
 
+    public void AdicionarLivro(Livro livro) {
+        for (int i =0; i < livros.length; i++){
+            if (livros[i] == null){
+                livros[i] = livro;
+            }
+        }
+    }
 }
