@@ -28,7 +28,7 @@ public class Main {
     }
 
     /*
-    * FOR MELHORADO
+    * FOR MELHORADO (foreach)
     *
     * (Livro value : biblioteca) {
     * System.out.println(value);
