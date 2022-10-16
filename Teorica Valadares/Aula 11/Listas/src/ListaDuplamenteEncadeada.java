@@ -80,4 +80,21 @@ public class ListaDuplamenteEncadeada {
 
         return mensagem;
     }
+
+    public String exibirLista(){
+        int i = 0;
+        NoDuplo noTemporario = primeiro;
+        String mensagem = "";
+
+        while (noTemporario != null){
+            mensagem = mensagem + "Posicao: " + i + " Valor: " + noTemporario.valor + "\n";
+
+            noTemporario = noTemporario.prox;
+            i++;
+        }
+
+        return mensagem;
+    }
+
+    //TODO(Criar metodo para retornar os dados da lista em ordem inversa)
 }
