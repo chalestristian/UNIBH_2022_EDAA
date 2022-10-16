@@ -8,19 +8,76 @@ public class ListaDuplamenteEncadeada {
         numeroDeNos = 0;
     }
 
-    public void inserirFinal(NoDuplo novoNo){
+    public void inserirFinal(NoDuplo novoNo) {
         novoNo.prox = null;
         novoNo.ant = null;
 
-        if (primeiro == null){
+        if (primeiro == null) {
             primeiro = novoNo;
         } else {
             ultimo.prox = novoNo;
-            novoNo.ant =ultimo;
+            novoNo.ant = ultimo;
         }
         ultimo = novoNo;
-
         numeroDeNos++;
+    }
+    public void inserirInicio(NoDuplo novoNo) {
+        novoNo.ant = null;
 
+        if (primeiro == null) {
+            ultimo = novoNo;
+        } else {
+            novoNo.prox = primeiro;
+            primeiro.ant = novoNo;
+        }
+
+        primeiro = novoNo;
+        numeroDeNos++;
+    }
+
+    public NoDuplo obterElementoPorPosicao(int posicao) {
+        NoDuplo noTemporario = primeiro;
+        int i = 0;
+
+        while (noTemporario != null && i < posicao){
+            noTemporario = noTemporario.prox;
+            i++;
+        }
+        
+        return noTemporario;
+
+    }
+
+    //TODO(Criar metodo para inserir elementos em uma posicao especifica)
+
+    public String excluirNoUsandoPosicao(int posicao){
+
+        String mensagem = "";
+        NoDuplo noTemporario = obterElementoPorPosicao(posicao);
+
+        if (noTemporario == null){
+            mensagem = "A posição informada está vazia ou não existe";
+        } else if(posicao == 0) {
+            if (noTemporario.prox == null){
+                primeiro = ultimo = null;
+            } else {
+                primeiro = noTemporario.prox;
+                primeiro.ant = null;
+            }
+            mensagem = "Posicao " + posicao + " excluida. \nValor: " + noTemporario.valor;
+        } else if (posicao == numeroDeNos -1) {
+            ultimo = noTemporario.ant;
+            ultimo.prox = null;
+            mensagem = "Posicao " + posicao + " excluida. \nValor: " + noTemporario.valor;
+
+        } else {
+            noTemporario.ant.prox = noTemporario.prox;
+            noTemporario.prox.ant = noTemporario.ant;
+            mensagem = "Posicao " + posicao + " excluida. \nValor: " + noTemporario.valor;
+        }
+
+        numeroDeNos--;
+
+        return mensagem;
     }
 }
