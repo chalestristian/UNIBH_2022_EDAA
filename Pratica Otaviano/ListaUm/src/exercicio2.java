@@ -20,12 +20,12 @@ public class exercicio2 {
         private static int[] resultadoNum() {
             final int maxNum = 1000;
             var randomGenerator = new Random();
-            var aleatorio = new int[20];
+            var aleatorio = new int[10];
 
             System.out.println("Listagem dos numeros:");
             System.out.print(" - ");
 
-            for(int i=0; i<20; i++) {
+            for(int i=0; i<aleatorio.length; i++) {
                 var novoNumero = randomGenerator.nextInt(maxNum);
 
                 aleatorio[i] = novoNumero;
@@ -49,7 +49,7 @@ public class exercicio2 {
         private static void numero(int[] numeros) {
             System.out.println("Analise numeros");
 
-            for(int i=0; i<20; i++) {
+            for(int i=0; i<10; i++) {
                 var numero = numeros[i];
                 System.out.println("----------------------------------------");
                 if (Primo(numero))

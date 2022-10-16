@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Teorica Valadares/Aula 09/Aula 09.iml" filepath="$PROJECT_DIR$/Teorica Valadares/Aula 09/Aula 09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teorica Valadares/Aula 11/Aula 11.iml" filepath="$PROJECT_DIR$/Teorica Valadares/Aula 11/Aula 11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica Otaviano/ListaDois/ListaDois.iml" filepath="$PROJECT_DIR$/Pratica Otaviano/ListaDois/ListaDois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica Otaviano/ListaTres/ListaTres.iml" filepath="$PROJECT_DIR$/Pratica Otaviano/ListaTres/ListaTres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica Otaviano/ListaUm/ListaUm.iml" filepath="$PROJECT_DIR$/Pratica Otaviano/ListaUm/ListaUm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teorica Valadares/Teorica Valadares.iml" filepath="$PROJECT_DIR$/Teorica Valadares/Teorica Valadares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UNIBH_2022_EDAA.iml" filepath="$PROJECT_DIR$/.idea/UNIBH_2022_EDAA.iml" />
+    </modules>
+  </component>
+</project>

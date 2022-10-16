@@ -6,7 +6,7 @@ public class exercicio4 {
      *@author Neuber Tavares
      */
         public static void main(String[] args) {
-            System.out.println("!!! EOUBO BANCO HSVC !!!");
+            System.out.println("!!! ROUBO BANCO HSVC !!!");
 
             var valoresSuspeitos = obterValoresSuspeitos();
             var valorAssaltanteConfesso = obterValorAssaltanteConfessado();
