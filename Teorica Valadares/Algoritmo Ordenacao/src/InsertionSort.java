@@ -3,7 +3,7 @@ import java.util.Random;
 public class InsertionSort {
     public static void main(String[] args) {
 
-        int[] A = new int[20];
+        int[] A = new int[20000];
         Random dados = new Random();
 
         System.out.println("ANTES DA ORDENAÇÃO:");
@@ -24,7 +24,6 @@ public class InsertionSort {
             }
             A[i + 1] = chave;
         }
-
         System.out.println("\nDEPOIS DA ORDENAÇÃO:");
         System.out.print("{ ");
         for (int e = 0; e < A.length; e++) {

@@ -54,7 +54,7 @@ public class MergeSort {
     }
     public static void main(String[] args) {
 
-        int[] A = new int[20];
+        int[] A = new int[20000 ];
         Random dados = new Random();
 
         System.out.println("ANTES DA ORDENAÇÃO:");
