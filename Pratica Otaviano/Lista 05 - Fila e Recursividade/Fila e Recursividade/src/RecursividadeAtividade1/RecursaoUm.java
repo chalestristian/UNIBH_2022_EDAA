@@ -1,20 +1,20 @@
-package Recursividade;
+package RecursividadeAtividade1;
 
-public class Somatorio {
+public class RecursaoUm {
     int dados = 0;
     int caso_base = 0;
     int soma = 0;
-    public Somatorio(int dados) {
+    public RecursaoUm(int dados) {
         this.dados = dados;
     }
-    public int Somatorio(int dados){
+    public int RecursaoUm(int dados){
         caso_base =  caso_base + 1;
         soma = soma + caso_base;
 
         System.out.println("RESULTADO RECURSIVO " + caso_base + " = "  + soma);
 
         if (caso_base < dados){
-            return Somatorio(dados);
+            return RecursaoUm(dados);
         } else {
             return caso_base;
         }
