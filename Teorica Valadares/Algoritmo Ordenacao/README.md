@@ -6,7 +6,7 @@ Utilizando o ````System.currentTimeMillis()```` foi criado uma varíavel no iní
 
 Levando em consideração que o tempo de execução do algoritmo em si depende de outros fatores, como por exemplos:
 
-- Retorno de outroas Classes ```` Random````.
+- Retorno de outras Classes ```` Random````.
 - Capacidade de processamento da máquina.
 
 Para chegarmos a um valor mais próximo do real possível, o algoritmo foi executado 5x em um espaço de tempo consideravél e em IDE's distintas.
