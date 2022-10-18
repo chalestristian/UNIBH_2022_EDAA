@@ -1,10 +1,8 @@
 package RecursividadeAtividade2;
 
 public class RecursaoDois {
-    int dados = 0;
     int caso_base = -1;
-    public RecursaoDois(int dados) {
-        this.dados = dados;
+    public RecursaoDois() {
     }
     public int Recursao(int dados) {
         caso_base = caso_base + 1;

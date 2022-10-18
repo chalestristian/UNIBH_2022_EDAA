@@ -9,10 +9,10 @@ public class MainDois {
         RecursaoDois recursaodois;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("DIGITE O NUMERO INTEIRO: ");
+        System.out.print("DIGITE O NUMERO INTEIRO: ");
         int dado = input.nextInt();
 
-        recursaodois  = new RecursaoDois(dado);
+        recursaodois  = new RecursaoDois();
         recursaodois.Recursao(dado);
 
     }

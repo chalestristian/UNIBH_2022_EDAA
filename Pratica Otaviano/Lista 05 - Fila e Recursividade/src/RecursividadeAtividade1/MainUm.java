@@ -8,9 +8,9 @@ public class MainUm {
         RecursaoUm recurssaoum;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("DIGITE O NUMERO INTEIRO: ");
+        System.out.print("DIGITE O NUMERO INTEIRO: ");
         int dado = input.nextInt();
-        recurssaoum = new RecursaoUm(dado);
+        recurssaoum = new RecursaoUm();
         recurssaoum.RecursaoUm(dado);
     }
 

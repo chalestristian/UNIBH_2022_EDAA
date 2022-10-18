@@ -1,11 +1,10 @@
 package RecursividadeAtividade1;
 
 public class RecursaoUm {
-    int dados = 0;
     int caso_base = 0;
     int soma = 0;
-    public RecursaoUm(int dados) {
-        this.dados = dados;
+    public RecursaoUm() {
+
     }
     public int RecursaoUm(int dados){
         caso_base =  caso_base + 1;
