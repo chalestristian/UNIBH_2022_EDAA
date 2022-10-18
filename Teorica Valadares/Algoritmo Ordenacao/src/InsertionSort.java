@@ -1,8 +1,8 @@
 import java.util.Random;
 
 public class InsertionSort {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int[] A = new int[20000];
         Random dados = new Random();
 
@@ -30,5 +30,8 @@ public class InsertionSort {
             System.out.print(A[e] + ", ");
         }
         System.out.print("}");
+
+
     }
+
 }
