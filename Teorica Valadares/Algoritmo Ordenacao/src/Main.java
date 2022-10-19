@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int[] A = new int[10000];
+        int[] A = new int[1000];
         Random r = new Random();
         int low = 10;
         int high = 10000000;
@@ -20,18 +20,21 @@ public class Main {
         ms = new MergeSort(A.clone());
         bs = new BubbleSort(A.clone());
 
+        System.out.println("********************************");
         long startTime = System.currentTimeMillis();
         is.sort();
-        System.out.println("Insertion sort time: " + (System.currentTimeMillis() - startTime));
+        System.out.println("TEMPO - InsertionSort: " + (System.currentTimeMillis() - startTime) + "ms");
 
         System.out.println();
         startTime = System.currentTimeMillis();
         ms.sort(0, (A.length - 1));
-        System.out.println("Mergesort time: " + (System.currentTimeMillis() - startTime));
+        System.out.println("TEMPO - MergeSort: " + (System.currentTimeMillis() - startTime) + "ms");
 
         System.out.println();
         startTime = System.currentTimeMillis();
         bs.sort();
-        System.out.println("BubbleSort time: " + (System.currentTimeMillis() - startTime));
+        System.out.println("TEMPO - BubbleSort: " + (System.currentTimeMillis() - startTime) + "ms");
+        System.out.println("********************************");
+
     }
 }
