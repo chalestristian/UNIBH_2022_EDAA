@@ -6,8 +6,8 @@ public class BubbleSort {
     public BubbleSort(int [] A){
         this.A = A;
     }
-    public int[] getA(){
-        return A;
+    public int getA(){
+        return A.length;
     }
     public void sort() {
         for (int i = 0; i < A.length; i++) {

@@ -6,6 +6,8 @@ public class MergeSort {
     public MergeSort(int[] A) {
         this.A = A;
     }
+    InsertionSort insertionSort = new InsertionSort(A);
+
     public int[] getA() {
         return A;
     }
@@ -45,15 +47,21 @@ public class MergeSort {
         }
     }
 
-
     public void sort ( int p, int r){
         int q;
-
-        if (p < r) {
-            q = Math.floorDiv((p + r), 2);
-            sort(p, q);
-            sort(q + 1, r);
-            merge(p, q, r);
+        //Adcionado if para validar considerando a instancia pequena como até 1000.
+        //Se a instancia for até 1000, chama-se o InsertionSort no lugar do MergeSort.
+        if (A.length <= 1000){
+            insertionSort.sort(A);
+        }
+        //Senão, se a instancia for maior que 1000, chama-se o próprio MergeSort recursivo.
+        else {
+            if (p < r) {
+                q = Math.floorDiv((p + r), 2);
+                sort(p, q);
+                sort(q + 1, r);
+                merge(p, q, r);
+            }
         }
     }
 }
