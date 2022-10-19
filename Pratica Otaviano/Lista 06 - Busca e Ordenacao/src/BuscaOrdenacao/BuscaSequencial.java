@@ -1,4 +1,4 @@
-package ordenacao;
+package BuscaOrdenacao;
 
 public class BuscaSequencial {
     public String linear (int x, int A[]){
@@ -17,9 +17,9 @@ public class BuscaSequencial {
             }
         }
         if (cont != 1){
-            return "EXISTEM " + cont + " ELEMENTOS IGUAIS AO ELEMENTO "+ x +" NESA MATRIZ";
+            return "EXISTEM " + cont + " ELEMENTOS IGUAIS AO ELEMENTO "+ x +" NESSA MATRIZ";
         } else {
-            return "EXISTE APENAS " + cont + " ELEMENTO "+ x +" NESA MATRIZ";
+            return "EXISTE APENAS " + cont + " ELEMENTO "+ x +" NESSA MATRIZ";
 
         }
     }

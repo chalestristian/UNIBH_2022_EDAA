@@ -1,4 +1,4 @@
-package ordenacao;
+package BuscaOrdenacao;
 public class InsertionSort {
     private int[] A;
     public InsertionSort (int[] A){

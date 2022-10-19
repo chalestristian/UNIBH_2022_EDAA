@@ -1,4 +1,4 @@
-package ordenacao;
+package BuscaOrdenacao;
 
 import java.util.Arrays;
 public class BuscaBinaria {
