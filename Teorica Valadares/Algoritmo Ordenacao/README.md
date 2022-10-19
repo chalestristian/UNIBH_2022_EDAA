@@ -26,6 +26,6 @@ O resultado aproximado abaixo é a soma dos valores (tempo em milissegundos) div
 
 ### Considerações:
 
-- O Insertion Sort obteve uma pequena vantagem em uma quantidade pequena de dados.
-- O Merge Sort obteve uma vantagem considerável em uma quantidade de dados mais elevada.
+- Todos obtveram o mesmo desempenho considerando o numero baixo de elementos (20) no teste.
+- O Merge Sort obteve o melhor desempenho em um número alto de elementos (20000) no teste.
 
