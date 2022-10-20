@@ -9,14 +9,14 @@ public class BuscaBinaria {
             while (inicio <= fim) {
                 meio = (inicio + fim) / 2;
                 if (x == A[meio]) {
-                    return "\nELEMENTO " +x+ " ENCONTRADO NA POSIÇÃO N° " + encontraIndex(x, A);
+                    return "ELEMENTO " +x+ " ENCONTRADO NA POSIÇÃO N° " + encontraIndex(x, A);
                 }
                 if (x < A[meio])
                     fim = meio - 1;
                 else
                     inicio = meio + 1;
             }
-            return "\nELEMENTO NÃO ENCONTRADO";
+            return "ELEMENTO NÃO ENCONTRADO";
         }
     public static int encontraIndex(int x, int A[]) {
         int index = Arrays.binarySearch(A, x);

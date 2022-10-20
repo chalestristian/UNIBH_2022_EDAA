@@ -30,16 +30,16 @@ public class Main {
 
         is.sort(); // Ordenado usando o InsertionSort em: 2 milissegundos.
 
-        System.out.println("VETOR ORDENADO:");
+        System.out.println("\nVETOR ORDENADO USANDO INSERTION SORT:");
         System.out.println(Arrays.toString(is.getA()));
 
         System.out.print("\n[BUSCA PELO METODO BINARIO]: INFORME O NUMERO DO ELEMENTO: ");
         int x = input.nextInt();
 
-        System.out.print(bb.binaria(x, A)+"\n"); // Busca binaria realizada em: 6 milissegundos.
+        System.out.print(bb.binaria(x, A)); // Busca binaria realizada em: 6 milissegundos.
 
-        System.out.print("\n[BUSCA PELO METODO SEQUENCIAL]: INFORME O NUMERO DO ELEMENTO: ");
+        System.out.print("\n\n[BUSCA PELO METODO SEQUENCIAL]: INFORME O NUMERO DO ELEMENTO: ");
         int y = input.nextInt();
-        System.out.print("\n"+bs.linear(y, A)); // Busca sequencial realizada em: 2 milissegundos.
+        System.out.print(bs.linear(y, A)); // Busca sequencial realizada em: 2 milissegundos.
     }
 }
